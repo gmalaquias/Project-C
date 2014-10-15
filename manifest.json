@@ -1,0 +1,23 @@
+{
+  "name" : "Usuário Gestão",
+  "version" : "0.1",
+  "description" : "Preenche o usuario do Gestão",
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://gestao.starcorp.com.br/*",
+        "http://www.gestao.starcorp.com.br/*"
+      ],
+      "js" : ["jquery-1.8.2.min.js", "magic.js"],
+      "run_at" : "document_end"
+    }
+  ],
+  "page_action" : {
+    "default_icon" : "icon.png"
+  },
+  "icons" : {
+    "48" : "icon.png",
+    "128" : "icon.png"
+  },
+  "manifest_version": 2
+}
