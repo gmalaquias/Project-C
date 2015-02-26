@@ -1,18 +1,21 @@
-﻿Build started 25/02/2015 22:07:25.
-     1>Project "C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Project-C\Project-C.vcxproj" on node 2 (Build target(s)).
+﻿Build started 26/02/2015 11:19:33.
+     1>Project "C:\net\Project-C\trunk\Project-C\Project-C.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AreaPerimetro.cpp Source.cpp
+         AreaPerimetro.cpp
+     1>c:\net\project-c\trunk\project-c\areaperimetro.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\net\project-c\trunk\project-c\header.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
+         Compiling...
          Source.cpp
-     1>c:\users\42143954840\documents\visual studio 2013\projects\project-c\trunk\project-c\source.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\42143954840\documents\visual studio 2013\projects\project-c\trunk\project-c\areaperimetro.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\net\project-c\trunk\project-c\header.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Debug\Project-C.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Debug\Project-C.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Debug\Project-C.lib" /MACHINE:X86 Debug\Source.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\net\Project-C\trunk\Debug\Project-C.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\net\Project-C\trunk\Debug\Project-C.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\net\Project-C\trunk\Debug\Project-C.lib" /MACHINE:X86 Debug\Source.obj
          Debug\AreaPerimetro.obj
-     1>AreaPerimetro.obj : error LNK2005: "float __cdecl AreaPerimetro(float,float *)" (?AreaPerimetro@@YAMMPAM@Z) already defined in Source.obj
-     1>AreaPerimetro.obj : error LNK2005: "void __cdecl AreaPerimetroMain(void)" (?AreaPerimetroMain@@YAXXZ) already defined in Source.obj
-     1>C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Debug\Project-C.exe : fatal error LNK1169: one or more multiply defined symbols found
-     1>Done Building Project "C:\Users\42143954840\Documents\Visual Studio 2013\Projects\Project-C\trunk\Project-C\Project-C.vcxproj" (Build target(s)) -- FAILED.
+         Project-C.vcxproj -> C:\net\Project-C\trunk\Debug\Project-C.exe
+     1>Done Building Project "C:\net\Project-C\trunk\Project-C\Project-C.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.76
+Time Elapsed 00:00:01.49
