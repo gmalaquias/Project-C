@@ -29,5 +29,8 @@
     <ClCompile Include="AreaPerimetro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ordenacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

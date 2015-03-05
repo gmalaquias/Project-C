@@ -1,12 +1,10 @@
-
-
 #include  "Header.h"
 
 
+
+
 int main(){
-	cout << "Hello Word!";
-	
-	AreaPerimetroMain();
+	OrdenacaoMain();
 	
 
 	//pausa sem mostrar msg

@@ -1,21 +1,16 @@
-﻿Build started 26/02/2015 11:19:33.
-     1>Project "C:\net\Project-C\trunk\Project-C\Project-C.vcxproj" on node 2 (Build target(s)).
+﻿Build started 04/03/2015 20:15:08.
+     1>Project "C:\Users\42143954840\Documents\Project-C\trunk\Project-C\Project-C.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AreaPerimetro.cpp Source.cpp
-         AreaPerimetro.cpp
-     1>c:\net\project-c\trunk\project-c\areaperimetro.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\net\project-c\trunk\project-c\header.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         Generating Code...
-         Compiling...
-         Source.cpp
-     1>c:\net\project-c\trunk\project-c\header.h(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ordenacao.cpp
+         Ordenacao.cpp
+     1>c:\users\42143954840\documents\project-c\trunk\project-c\header.h(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\net\Project-C\trunk\Debug\Project-C.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\net\Project-C\trunk\Debug\Project-C.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\net\Project-C\trunk\Debug\Project-C.lib" /MACHINE:X86 Debug\Source.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\42143954840\Documents\Project-C\trunk\Debug\Project-C.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\42143954840\Documents\Project-C\trunk\Debug\Project-C.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\42143954840\Documents\Project-C\trunk\Debug\Project-C.lib" /MACHINE:X86 Debug\Ordenacao.obj
+         Debug\Source.obj
          Debug\AreaPerimetro.obj
-         Project-C.vcxproj -> C:\net\Project-C\trunk\Debug\Project-C.exe
-     1>Done Building Project "C:\net\Project-C\trunk\Project-C\Project-C.vcxproj" (Build target(s)).
+         Project-C.vcxproj -> C:\Users\42143954840\Documents\Project-C\trunk\Debug\Project-C.exe
+     1>Done Building Project "C:\Users\42143954840\Documents\Project-C\trunk\Project-C\Project-C.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.49
+Time Elapsed 00:00:01.09
